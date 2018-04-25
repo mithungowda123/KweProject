@@ -78,14 +78,14 @@ public class PSAController {
 	 
 	 
 	 
-	 /*@RequestMapping("/PSA/PSALookup.htm")
+	 @RequestMapping("/PSA/PSALookup.htm")
 	 public ModelAndView PSALookup(HttpServletRequest request, HttpServletResponse response ) {
 		 HttpSession session = null;
 		 ModelMap map=new ModelMap();
 		 String AccountNumber = request.getParameter("accnum");
-		 
+		 return new ModelAndView(); 
 
 	 }
-	*/
+	
 
 }
