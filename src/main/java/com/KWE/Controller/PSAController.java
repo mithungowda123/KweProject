@@ -77,7 +77,7 @@ public class PSAController {
 	 }*/
 	 
 	 
-	 
+	 /*
 	 @RequestMapping("/PSA/PSALookup.htm")
 	 public ModelAndView PSALookup(HttpServletRequest request, HttpServletResponse response ) {
 		 HttpSession session = null;
@@ -86,6 +86,7 @@ public class PSAController {
 		 return new ModelAndView(); 
 
 	 }
+	 */
 	
 
 }
