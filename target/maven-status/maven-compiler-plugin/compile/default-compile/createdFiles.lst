@@ -1,0 +1,4 @@
+com\KWE\Model\PSALogin.class
+com\KWE\Service\PSAService.class
+com\KWE\Controller\PSAController.class
+com\KWE\Dao\PSAdao.class

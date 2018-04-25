@@ -1,0 +1,179 @@
+/* This is the main stylesheet for the AffiliateOrders project */
+html{
+	height: 100%;
+}
+
+body{
+	background-color: #EEEDB7;
+	font-size: 13px;
+	font-family: Ariel,helvatica,sans-serif;
+	margin: 0px;
+	height: 100%;
+}
+
+table{
+	font-size: 13px;
+	font-family: Ariel,helvatica,sans-serif;
+}
+
+th{
+	background-color: #888888;
+	color: white;
+	font-weight: bold;
+}
+
+.changeClr:hover {
+	background-color: #B3B3B3;
+}
+
+/* The class definitions start here */
+.loginWelcomeImage{
+	background-image: url("/AffiliateOrders/images/common/smithsonian_logo.gif");
+	background-repeat:no-repeat;
+	color: #00A4CA;
+	text-align: right;
+	background-color: #FFFFFF;
+	padding: 40px 60px 0px 0px;
+	font-size: 18px;
+}
+
+.loginMasterDiv{
+	background-color:#FFFFFF;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	border: 1px solid #88AAFF;
+	border-radius:10px;
+	box-shadow:0 0 25px #88AAFF;
+	padding: 15px;
+	width:320px;
+	height:250px;
+	margin: 0 auto;
+}
+
+.errorMasterDiv{
+	background-color: #DDDDDD;
+    border: 1px solid #000000;
+    height: 600px;
+    margin: 0 auto;
+    width: 950px;
+    box-shadow: 0 0 29px #252525;
+}
+
+label.error{
+	font-size: 13px;
+	font-family: Arial, Helvatica, sans-serif;
+	color: #CA1F1F;
+	padding: 0px 0px 0px 10px;
+}
+
+td.error{
+	font-size: 13px;
+	font-family: Arial, Helvatica, sans-serif;
+	color: #CA1F1F;
+}
+
+.loginTableRight{
+	width: 30%;
+	text-align: right;
+	font-size:13px;
+	font-family: Arial, Helvatica, sans-serif;
+}
+
+input[type="text"].error, input[type="password"].error,select.error {
+	border: 1px dotted #CA1F1F;
+}
+
+#headerContainerDiv{
+	background-color: #FFFFFF;
+}
+
+#closeOrderDetailsSpan{
+	background-color: #1DAFD5;
+    border: 1px solid #000000;
+    color: #D22A2A;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#containerDiv{
+	width: 950px;
+	border: 1px solid black;
+	border-top: none;
+	border-bottom: none; 
+	margin: 0 auto;
+	background-color: #EEEEEE;
+	box-shadow: 0 0 29px #252525;
+}
+
+#headerDiv{
+	background-image: url("/AffiliateOrders/images/common/smithsonian_logo.gif");
+ 	background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    color: #00A4CA;
+    font-size: 19px;
+    height: 35px;
+    padding-right: 50px;
+    padding-top: 25px;
+    text-align: right;
+}
+
+#menuDiv ul {
+	padding: 10px;
+	background-color: #123456;
+}
+
+#menuDiv ul li {
+	list-style: none;
+	color: #D3D3FF;
+    display: inline;
+    font-size: 14px;
+	padding: 10px 10px;
+}
+
+#menuDiv ul li:hover {
+	background-color: #CCC;
+	color: #000000;
+	cursor: pointer;
+}
+
+#menuDiv ul a{
+	text-decoration: none;
+}
+
+#menuDiv ul a:link{
+	color: #000000;
+}
+
+
+#welcomeDiv{
+	padding: 0px 10px 0px 10px;	
+}
+
+.clear{
+	clear: both;
+}
+
+#bodyDiv{
+	padding: 10px;
+}
+
+#footerDiv{
+    background-color: #DDDDDD;
+    bottom: 0;
+    color: #505050;
+    padding: 15px 10px;
+   /*  position: fixed; */
+    width: 930px;
+}
+
+.updateTable{
+	margin: auto;
+	background-color: #DADADA;
+	width: 80%;
+	padding: 10px;
+}
